@@ -2,7 +2,7 @@
 
 "So if you have a 20-mile commute to work, multiply it out: 40 miles each workday times 50 cents a mile. And there are 2,500 of those workdays in every decade, so that 'not too bad' commute is burning at least $50,000 every ten years." [Reuters](http://www.reuters.com/article/us-usa-commute-costs-idUSKBN0E721M20140527)
 
-The average american spends 26 minutes commuting in their car, each way, to work. Collectively 126 million people in the US commute, losing 30 billion hours of time a year [grist.org](http://grist.org/living/americans-spend-30-billion-hours-a-year-commuting-and-its-killing-them/). If the average commuter can cut their travel time in half, they stand to save over $25,000 over a decade.  
+The average american spends 26 minutes commuting in their car, each way, to work. Collectively 126 million people in the US commute, losing 30 billion hours of time a year [(grist.org)](http://grist.org/living/americans-spend-30-billion-hours-a-year-commuting-and-its-killing-them/). If the average commuter can cut their travel time in half, they stand to save over $25,000 over a decade.  
 
 ## The current state of the art
 
@@ -15,11 +15,9 @@ This tool offers a great start - but doesn't go far enough. I propose make two i
 
 ## Data Sources
 
-The project would be conducted with [OpenStreetMap data}(http://wiki.openstreetmap.org/wiki/Downloading_data). Critically, its coverage is global. Street centerlines for test cities would be the main data need. To start, traffic would not be incorporated into the analysis, but could be if it can be reliably/affordably accessed via an API. 
+The project would be conducted with [OpenStreetMap data](http://wiki.openstreetmap.org/wiki/Downloading_data). Critically, its coverage is global. Street centerlines for test cities would be the main data need. To start, traffic would not be incorporated into the analysis, but could be if it can be reliably/affordably accessed via an API. 
 
 [Leaflet](http://leafletjs.com/) will be explored as a web platform. Initial protyping will be done with QGIS, python tools including pandas, networkX, Shapely, and Fiona. 
-
-## explain the analysis you are performing.
 
 ## Proof of concept 
 ![Figure2](https://github.com/BDHudson/commuteMinimizer/blob/master/images/GoogleAPI_routesImage.png)
